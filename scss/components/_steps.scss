@@ -1,0 +1,50 @@
+.steps {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 60px;
+
+  &__title {
+    font: 700 25px "Roboto", sans-serif;
+    color: $main;
+
+    margin-bottom: 15px;
+  }
+
+  &__text {
+    max-width: 265px;
+    margin: 0 auto;
+  }
+
+  &__item {
+    width: 30%;
+    margin-bottom: 20px;
+  }
+
+  &__circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95px;
+    height: 95px;
+    margin: 0 auto 20px;
+
+    border-radius: 50%;
+    border: 2px solid $main;
+
+    flex-shrink: 0;
+  }
+
+  &__placeholder {
+    display: block;
+    width: 85px;
+    height: 85px;
+
+    flex-shrink: 0;
+
+    border-radius: 50%;
+    background-color: $gray;
+  }
+}

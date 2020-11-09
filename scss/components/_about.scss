@@ -1,0 +1,12 @@
+.about {
+  &__text {
+    margin-top: 45px;
+
+    &_huge {
+      font-size: 26px;
+      font-weight: 700;
+      color: $main;
+      opacity: 1;
+    }
+  }
+}

@@ -1,0 +1,51 @@
+.features {
+  padding: 90px 0;
+
+  &__items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 885px;
+  }
+
+  &__item {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-start;
+    width: 47%;
+
+    margin-bottom: 35px;
+  }
+
+  &__text {
+    text-align: left;
+    font-size: 15px;
+  }
+
+  &__circle {
+    margin: 0 15px 0 0;
+  }
+
+  &__content {
+    display: flex;
+    align-items: center;
+    height: 550px;
+
+    margin-top: 60px;
+
+    background: url("../../img/laptop-small.png") no-repeat right center;
+  }
+
+  &__container {
+    width: 100%;
+    max-width: 1250px;
+    padding: 0;
+  }
+
+  &__header {
+    max-width: 1150px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+}

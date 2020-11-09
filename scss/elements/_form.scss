@@ -1,0 +1,31 @@
+.form {
+  &-field,
+  &-textarea {
+    font: 14px "Roboto", sans-serif;
+    color: rgba($color: $black, $alpha: 0.7);
+
+    border: 2px solid $light-main;
+    height: 50px;
+    border-radius: 11px;
+
+    padding: 18px;
+
+    transition: border-color 0.15s linear;
+
+    &::placeholder {
+      color: $bold-gray;
+    }
+
+    &:hover,
+    &:active,
+    &:focus {
+      border-color: $main;
+    }
+  }
+
+  &-textarea {
+    resize: none;
+    height: auto;
+    padding: 18px;
+  }
+}

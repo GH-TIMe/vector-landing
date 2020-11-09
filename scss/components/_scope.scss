@@ -1,0 +1,27 @@
+.scope {
+  &__items {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+  }
+
+  &__number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 110px;
+    height: 110px;
+
+    margin: 0 auto 25px;
+
+    font: 700 30px "Roboto", sans-serif;
+    color: $main;
+
+    background: url("../../img/circle.png") center no-repeat;
+  }
+
+  &__text {
+    max-width: 230px;
+    color: $main;
+  }
+}

@@ -1,0 +1,15 @@
+.header {
+  padding-top: 50px;
+
+  &__container {
+    max-width: 1300px;
+    width: 100%;
+    height: 50px;
+
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

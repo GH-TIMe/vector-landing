@@ -1,0 +1,45 @@
+.demo {
+  height: calc(100vh - 100px);
+  min-height: 632px;
+  background: url("../../img/laptop.png") no-repeat right center;
+
+  &__container {
+    display: flex;
+    max-width: 1150px;
+    height: 100%;
+
+    align-items: center;
+
+    margin: 0 auto;
+  }
+
+  &__subtitle,
+  &__title {
+    font: 700 35px "Roboto", sans-serif;
+    color: $title;
+    line-height: 1.1;
+  }
+
+  &__subtitle {
+    margin-bottom: 20px;
+  }
+
+  &__title {
+    font-size: 60px;
+    text-transform: uppercase;
+
+    margin-bottom: 40px;
+  }
+
+  &__text {
+    max-width: 450px;
+    width: 100%;
+
+    margin-bottom: 50px;
+  }
+
+  &__laptop {
+    position: absolute;
+    right: 0;
+  }
+}

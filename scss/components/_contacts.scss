@@ -1,0 +1,66 @@
+.contacts {
+  &__container {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  &__left-block {
+    width: 400px;
+    height: 465px;
+    padding: 60px;
+
+    border: 2px solid $main;
+    border-radius: 35px;
+  }
+
+  &__right-block {
+    width: 400px;
+    height: 465px;
+    padding: 60px;
+
+    background-color: $white;
+    border-radius: 35px;
+    box-shadow: 0px 0px 18px 0px rgba($color: $black, $alpha: 0.05);
+  }
+
+  &__items {
+    margin-top: 55px;
+  }
+
+  &__item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &__title {
+    font: 700 30px "Roboto", sans-serif;
+    color: $main;
+    margin-bottom: 30px;
+  }
+
+  &__icon {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 0;
+  }
+
+  &__text {
+    display: inline-block;
+    font-size: 14px;
+    line-height: normal;
+  }
+
+  &__field {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  &__btn {
+    width: 100%;
+  }
+}

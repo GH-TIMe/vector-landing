@@ -1,0 +1,99 @@
+.footer {
+  background-color: $main;
+
+  &__container {
+    width: 100%;
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 60px 0;
+  }
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  &__text {
+    max-width: 410px;
+    margin-top: 25px;
+
+    font: 14px/1.5 "Roboto", sans-serif;
+    color: rgba($color: $white, $alpha: 0.8);
+
+    &.link {
+      color: rgba($color: $white, $alpha: 0.8);
+      transition: color 0.15s linear;
+
+      &:hover {
+        color: $white;
+      }
+    }
+  }
+
+  &__apps {
+    margin-top: 35px;
+  }
+
+  &__app {
+    display: inline-block;
+    text-align: center;
+    margin-right: 60px;
+    cursor: pointer;
+
+    &:hover .footer__icon {
+      transform: scale(1.2);
+    }
+
+    &-text {
+      font: 700 8px "Roboto", sans-serif;
+      color: $white;
+    }
+  }
+
+  &__nav {
+    display: flex;
+    flex-flow: row nowrap;
+  }
+
+  &__group {
+    margin-right: 40px;
+
+    &-title {
+      font: 700 18px "Roboto", sans-serif;
+      color: $white;
+    }
+  }
+
+  &__link {
+    margin-top: 25px;
+  }
+
+  &__icon {
+    display: block;
+    margin: 0 auto 10px;
+
+    transition: transform 0.15s linear;
+
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+
+  &__social {
+    display: inline-block;
+    margin-right: 10px;
+
+    cursor: pointer;
+  }
+
+  &__copyright {
+    font: 14px "Roboto", sans-serif;
+    padding: 20px 0;
+
+    background-color: $footer-bg;
+    color: rgba($color: $white, $alpha: 0.7);
+
+    text-align: center;
+  }
+}

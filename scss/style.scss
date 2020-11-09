@@ -1,0 +1,40 @@
+@import "./color/vars";
+@import "./fonts";
+
+html {
+  scroll-behavior: smooth;
+}
+
+.background {
+  background-color: $background;
+}
+
+.container {
+  max-width: 1150px;
+  padding: 90px 0;
+  margin: 0 auto;
+
+  &.center {
+    text-align: center;
+  }
+}
+
+@import "./normalize";
+
+@import "./elements/btn";
+@import "./elements/title";
+@import "./elements/text";
+@import "./elements/logo";
+@import "./elements/form";
+
+@import "./components/header";
+@import "./components/navigation";
+@import "./components/demo";
+@import "./components/about";
+@import "./components/why";
+@import "./components/scope";
+@import "./components/steps";
+@import "./components/features";
+@import "./components/registration";
+@import "./components/contacts";
+@import "./components/footer";

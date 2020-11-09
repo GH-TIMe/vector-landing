@@ -1,0 +1,17 @@
+.logo {
+  display: inline-block;
+
+  font: 900 italic 20px "Avenir", sans-serif;
+  text-transform: uppercase;
+  color: $white;
+
+  padding: 8px 12px 5px;
+  line-height: 20px;
+  background-color: $main;
+  outline: none;
+
+  &-alt {
+    background-color: $white;
+    color: $main;
+  }
+}

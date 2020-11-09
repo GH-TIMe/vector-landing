@@ -1,0 +1,40 @@
+.navigation {
+  display: inline-block;
+
+  &__links {
+    display: inline-block;
+    list-style: none;
+  }
+
+  &__link {
+    display: inline-block;
+    position: relative;
+    margin-right: 35px;
+
+    font: 13px "Roboto", sans-serif;
+    color: $main;
+
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+
+    &.active {
+      font-weight: 700;
+    }
+
+    &:hover::after {
+      width: 100%;
+    }
+
+    &::after {
+      content: "";
+      display: block;
+      height: 1px;
+      width: 0;
+
+      background-color: $main;
+      transition: width 0.15s linear;
+    }
+
+    cursor: pointer;
+  }
+}
