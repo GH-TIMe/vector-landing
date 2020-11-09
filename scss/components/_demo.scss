@@ -1,7 +1,8 @@
 .demo {
   height: calc(100vh - 100px);
   min-height: 632px;
-  background: url("../../img/laptop.png") no-repeat right center;
+  background: url("https://gh-time.github.io/vector-landing/img/laptop.png")
+    no-repeat right center;
 
   &__container {
     display: flex;
